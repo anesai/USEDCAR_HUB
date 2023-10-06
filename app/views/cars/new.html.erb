@@ -2,7 +2,7 @@
   <h1>Add a car</h1>
 
   <%= simple_form_for(@car) do |f| %>
-    <% brand_names = %w[Volkswagen BMW Mercedes Audi Porsche Tesla Ferrari] %>
+    <% brand_names = %w[Volkswagen BMW Mercedes Audi Porsche Tesla Ferrari Lamborguini] %>
     <%= f.input :brand, collection: brand_names %>
     <%= f.input :year %>
     <%= f.input :model %>
